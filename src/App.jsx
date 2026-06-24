@@ -3,6 +3,8 @@ import "./App.css";
 
 function App() {
   const [binary, setBinary] = useState("");
+  // useState preserves the value across componet re-renders
+  // in this case, binary is the value while setBinary is a function to change the value
   const [decimal, setDecimal] = useState("");
 
   function handleConvert() {
@@ -28,7 +30,11 @@ function App() {
         <input
           type="text"
           value={binary}
-          onChange={(e) => setBinary(e.target.value)}
+          onChange={(e) => {
+            setBinary(e.target.value);
+            handleConvert();
+            }
+          }
           placeholder="Example: 1010"
         />
 
