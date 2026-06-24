@@ -74,5 +74,3 @@ Build a React application that converts binary numbers to decimal numbers and de
 - [ ] Responsive Design
 - [ ] Animations
 <img width="836" height="458" alt="image" src="https://github.com/user-attachments/assets/da6b81ca-11fd-4ac0-b2cb-c3df68b7b2bb" />
-
-- [ ] 
