@@ -19,12 +19,11 @@ function App() {
     //       1 or 0 * 2^n
 
     let num = binary;
-    let curr_bit = 0;
     let sum = 0;
-    let bit_place = 1;
+    let bit_place = 0;
 
     while (num != 0) {
-      curr_bit = num % 10;
+      let curr_bit = num % 10;
       num = (num - curr_bit) / 10;
       sum += curr_bit * (2 ** bit_place);
 
