@@ -1,4 +1,4 @@
-<img width="836" height="458" alt="image" src="https://github.com/user-attachments/assets/1b006f25-a57e-4ba1-a42d-90248770871a" /># Project 01 - Bin2Dec / Dec2Bin Converter
+# Project 01 - Bin2Dec / Dec2Bin Converter
 
 ## Overview
 
