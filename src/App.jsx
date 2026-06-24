@@ -7,8 +7,8 @@ function App() {
   // in this case, binary is the value while setBinary is a function to change the value
   const [decimal, setDecimal] = useState("");
 
-  function handleConvert() {
-    if (!/^[01]+$/.test(binary)) {
+  function handleConvert(value) {
+    if (!/^[01]+$/.test(value)) {
       setDecimal("Enter only 0s and 1s");
       return;
     }
@@ -18,7 +18,7 @@ function App() {
     // sum += bit * 2^bit_location 
     //       1 or 0 * 2^n
 
-    let num = binary;
+    let num = value;
     let sum = 0;
     let bit_place = 0;
 
@@ -49,9 +49,11 @@ function App() {
           type="text"
           value={binary}
           onChange={(e) => {
-            setBinary(e.target.value);
-            // setBinary() seems to lag behind handleConvert() sometimes
-            handleConvert();
+              const value = e.target.value;
+
+              setBinary(value);
+
+              handleConvert(value);
             }
           }
           placeholder="Example: 1010"
