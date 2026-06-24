@@ -1,16 +1,75 @@
-# React + Vite
+# Project 01 - Bin2Dec / Dec2Bin Converter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+- **Project:** Bin2Dec / Dec2Bin Converter
+- **Date Started:** June 2026
+- **Date Completed:** June 2026
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Goal
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Build a React application that converts binary numbers to decimal numbers and decimal numbers to binary numbers while learning React fundamentals, state management, event handling, and basic algorithms.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+### Core Features
+
+- [x] Binary input
+- [x] Binary → Decimal conversion
+- [x] Input validation
+- [x] Error handling
+- [x] Clear button
+- [x] Toggle button
+- [x] Decimal → Binary conversion
+- [x] Live conversion while typing
+
+### Stretch Features
+
+- [ ] Conversion breakdown visualization
+- [ ] Dark mode
+- [ ] Conversion history
+- [ ] Copy result button
+- [ ] Improved mobile responsiveness
+- [ ] Unit tests
+
+---
+
+## Concepts Learned
+
+### React
+
+- [x] useState
+- [ ] Props
+- [ ] useEffect
+- [x] Event Handlers
+- [x] Conditional Rendering
+- [x] Component Re-renders
+- [x] Controlled Inputs
+
+
+
+### JavaScript
+
+- [x] Variables
+- [x] Functions
+- [x] Loops
+- [x] Conditionals
+- [x] Regular Expressions
+- [ ] Arrays
+- [ ] Objects
+- [ ] Async/Await
+
+
+
+### CSS
+
+- [x] Flexbox
+- [x] Centering Layouts
+- [x] Card Design
+- [ ] Grid
+- [ ] Responsive Design
+- [ ] Animations
