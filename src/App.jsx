@@ -88,7 +88,11 @@ function App() {
             : "Convert decimal numbers into binary numbers."}
         </p>
 
+        <label className="conversion-label" htmlFor="conversion-input">
+          {toggle === "Bin2Dec" ? "Binary number" : "Decimal number"}
+        </label>
         <input
+          id="conversion-input"
           type="text"
           value={binary}
           onChange={(e) => {
