@@ -1,53 +1,26 @@
 # Bin2Dec / Dec2Bin
 
-A polished React learning project for converting values between binary and decimal in real time.
+A React learning project for converting between binary and decimal as you type.
 
 ![Bin2Dec interface](https://github.com/user-attachments/assets/da6b81ca-11fd-4ac0-b2cb-c3df68b7b2bb)
 
-## Tech stack
+Toggle the conversion direction, enter a non-negative whole number, or clear the result. The conversion code uses place values and repeated division. Large inputs still need precision limits and edge-case tests.
 
-- React 19
-- JavaScript
-- Vite
-- CSS
-- ESLint
-
-## Features
-
-- Binary-to-decimal conversion.
-- Decimal-to-binary conversion.
-- Live results while typing.
-- Mode toggle and clear controls.
-- Friendly validation for unsupported characters.
-- Handwritten conversion algorithms that demonstrate place values and repeated division.
-
-## Run locally
+## Run
 
 ```bash
-npm install
+npm ci
 npm run dev
 ```
 
-Production and quality checks:
-
-```bash
-npm run lint
-npm run build
-```
+Check changes with `npm run lint` and `npm run build`.
 
 ## Why I built it
 
 This project helped me practice React state, controlled inputs, event handling, conditional rendering, regular expressions, and number-system algorithms in a focused interface.
 
-## Status
+## Contribute
 
-Complete educational application. The central conversion flows are implemented; automated tests and an optional step-by-step conversion visualization are the strongest next improvements.
+Try the [visible input label issue](https://github.com/SimpleCaci/Bin2Dec/issues/2) for a small first contribution. Keep changes focused and include a screenshot for UI changes. Conversion edge-case tests and a place-value visualization are useful next steps.
 
-## Roadmap
-
-- Add unit tests for conversion edge cases.
-- Visualize binary place values and decimal division steps.
-- Add copy-to-clipboard and conversion history.
-- Continue improving small-screen responsiveness.
-
-Built by [SimpleCaci](https://github.com/SimpleCaci).
+Inspired by [florinpop17’s App Ideas](https://github.com/florinpop17/app-ideas). Built by [SimpleCaci](https://github.com/SimpleCaci) as a learning implementation.
