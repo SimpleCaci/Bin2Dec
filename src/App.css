@@ -16,11 +16,20 @@
   text-align: center;
 }
 
+.conversion-label {
+  display: block;
+  margin-top: 16px;
+  color: #f3f4f6;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+}
+
 input {
   width: 100%;
   box-sizing: border-box;
   padding: 12px;
-  margin: 16px 0;
+  margin: 8px 0 16px;
   font-size: 18px;
 }
 
